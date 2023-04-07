@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:popupTheme="@android:color/holo_blue_bright"
+        android:background="#145369"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout
+            android:id="@+id/relativeto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+          <ImageButton
+              android:layout_centerVertical="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/backbtn"
+              android:layout_alignParentLeft="true"
+              android:background="@drawable/rippleforback"
+              android:src="@drawable/back_btn"
+              />
+            <LinearLayout
+                android:id="@+id/linear"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/backbtn"
+                android:layout_toLeftOf="@+id/save">
+                <TextView
+                    android:id="@+id/maintitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/almendra"
+                    android:text="Institution Name?"
+                    android:textColor="#309363"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/adamina"
+                    android:text="Class Page"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_save_alt_24"
+                android:background="@drawable/rippleforsave"
+                android:clickable="true"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+</androidx.constraintlayout.widget.ConstraintLayout>

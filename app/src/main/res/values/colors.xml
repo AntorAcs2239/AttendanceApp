@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="present">#0077b3</color>
+    <color name="apsent">#330000</color>
+    <color name="normal">#8689A6</color>
+    <color name="back">	#ff99b3</color>
+    <color name="add">#145369</color>
+    <color name="backbtn1">#145369</color>
+    <color name="backbtn2">#DBDEE3</color>
+    <color name="backforalert1">#164150</color>
+    <color name="backforalert2">#F0F8FF</color>
+    <color name="btnback1">#2B3856</color>
+    <color name="btnripple1">#2B3856</color>
+    <color name="btnripple2">#123456</color>
+    <color name="btnripple3">#A8A4BD</color>
+    <color name="drawforclass1">#C3C4CC</color>
+    <color name="drawforclass2">#36454F</color>
+    <color name="drawfordetail1">#CDC6D5</color>
+    <color name="drawfordetail2">#004d39</color>
+    <color name="drawforedit1">#708090</color>
+    <color name="drawforedit2">#95B9C7</color>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview"
+    android:background="@drawable/backforalert"
+    app:cardCornerRadius="10dp"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:elevation="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/aldrich"
+            android:text="Title"
+            android:textColor="#C0C0C0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+        <EditText
+            android:id="@+id/editclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit class"
+            android:textColorHint="#33395C"
+            android:layout_margin="8dp"
+            android:background="@drawable/drawforedit"
+            android:drawablePadding="6dp"
+            android:padding="6dp"
+            android:elevation="10dp"
+            />
+        <EditText
+            android:id="@+id/editsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit suject"
+            android:elevation="10dp"
+            android:background="@drawable/drawforedit"
+            android:drawablePadding="6dp"
+            android:padding="6dp"
+            android:textColorHint="#33395C"
+            android:layout_margin="8dp"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cancle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btnripple"
+                android:fontFamily="@font/aladin"
+                android:text="Cancle"
+                android:elevation="10dp"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/add"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/add"
+                android:elevation="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btnripple"
+                android:fontFamily="@font/aladin"
+                android:text="Add"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/cancle"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

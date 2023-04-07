@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/advent_pro_semibold</item>
+        <item>@font/advent_pro_thin</item>
+        <item>@font/aladin</item>
+        <item>@font/aldrich</item>
+        <item>@font/almendra</item>
+        <item>@font/arbutus</item>
+        <item>@font/autour_one</item>
+        <item>@font/bad_script</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/cherry_swash_bold</item>
+    </array>
+</resources>

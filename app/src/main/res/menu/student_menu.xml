@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/changedate"
+        app:showAsAction="never"
+        android:title="Change Date"/>
+    <item android:id="@+id/detailbyroll"
+        app:showAsAction="never"
+        android:title="Show Detail By Roll"/>
+    <item android:id="@+id/searchbydate"
+        app:showAsAction="never"
+        android:title="Show Detail By Date"/>
+</menu>
